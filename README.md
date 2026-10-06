@@ -1,33 +1,52 @@
-# Angela Dalangin — Portfolio
+# Angela Andal Dalangin — Portfolio
 
-A static portfolio site (HTML, CSS, vanilla JavaScript). No build step, no dependencies.
+Welcome to the personal portfolio of **Angela Andal Dalangin**, an Information Technology student and aspiring IT professional.
 
-## Run
-Open `index.html` in a browser. For best results use a local server
-(for example the VS Code "Live Server" extension).
+This portfolio showcases my academic journey, technical skills, organizational experiences, certifications, trainings, and selected projects in information technology.
 
-## Files
-- `index.html`: page structure (hero, about, journey, skills, projects, contact)
-- `css/style.css`: design tokens, components, animations
-- `css/responsive.css`: tablet and mobile layout
-- `js/data.js`: **all editable content** (journey, skills, projects, image paths)
-- `js/media.js`: image placeholder fallback, dialogs, screenshot lightbox
-- `js/navigation.js`: mobile menu and active-section indicator
-- `js/projects.js`: builds the project showcase and the details dialog
-- `js/main.js`: builds Journey and Skills, scroll reveal
-- `assets/images/`: profile photo and project screenshots (see `assets/images/README.md`)
+## About Me
 
-## Things to edit
-1. **Images**: replace the placeholder files in `assets/images/` (same filenames).
-2. **Contact links**: `index.html`, Contact section (email, GitHub, LinkedIn).
-3. **Project links** (optional): set `url` in `js/data.js` to show a "Visit project" button.
-4. **Colors**: change the variables at the top of `css/style.css`.
+I am a Bachelor of Science in Information Technology student majoring in Service Management at **Batangas State University – The National Engineering University**.
 
-## Projects
-1. EcoSphere
-2. eKuryente
-3. RedSpartan Queue (Student Service Appointment and Queue Management System)
+My interests include programming, web development, database management, systems, and technology-driven solutions.
 
+## Featured Projects
 
-### CV
-A starter CV PDF is included at `assets/Angela_Andal_Dalangin_CV.pdf` and is linked from the hero's **Download CV** button. Replace that file with your final CV PDF when ready.
+### EcoSphere
+An environmental awareness and fundraising platform focused on supporting environmental initiatives.
+
+### eKuryente
+A household energy monitoring and power-control system designed to help users monitor and manage electricity consumption.
+
+### RedSpartan Queue
+A centralized student service appointment and queue management system designed for university offices and student services.
+
+## Technical Skills
+
+- **Programming:** Python, HTML, CSS, SQL
+- **Databases & Tools:** Database Management Systems (DBMS), GitHub, VS Code, Cisco Packet Tracer
+- **Core Skills:** Leadership, Teamwork & Collaboration, Organization, Problem Solving, Time Management, Adaptability, Communication
+
+## Organizations & Leadership
+
+- Teatro Aliwana — Lente Head, Lente Department
+- Junior Philippine Computer Society – Lipa Chapter — Media Committee Member
+- Aya Ibaba Youth Ministry — Media Committee Chairman
+- BSIT Class President
+
+## Certifications
+
+- Introduction to Programming Using Python — DataCamp
+- Intermediate SQL — DataCamp
+- Introduction to SQL — DataCamp
+- Introduction to Programming Using Python — CodeChum
+
+## Contact
+
+- **Email:** gelaandal05@gmail.com
+- **GitHub:** github.com/chxgela
+- **LinkedIn:** linkedin.com/in/angela-dalangin-502727368
+
+---
+
+© 2026 Angela Andal Dalangin. All rights reserved.
