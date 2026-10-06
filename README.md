@@ -1,5 +1,7 @@
 # Angela Andal Dalangin — Portfolio
 
+🌐 **View My Portfolio:** https://chxgela.github.io/Portfolio/
+
 Welcome to the personal portfolio of **Angela Andal Dalangin**, an Information Technology student and aspiring IT professional.
 
 This portfolio showcases my academic journey, technical skills, organizational experiences, certifications, trainings, and selected projects in information technology.
