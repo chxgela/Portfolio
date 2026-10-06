@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Angela Andal Dalangin | Information Technology Student</title>
+  <meta name="description" content="Angela Andal Dalangin is a BS Information Technology student at Batangas State University, Lipa Campus. Portfolio of web development and system projects.">
+  <meta name="theme-color" content="#080a0e">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23c91e3c'/%3E%3Ctext x='16' y='23.5' font-size='20' font-weight='700' text-anchor='middle' fill='white' font-family='Arial,sans-serif'%3EA%3C/text%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <script>
+    document.documentElement.classList.add("js");
+  </script>
+</head>
+
+<body>
+  <!-- ===================== PORTFOLIO PRELOADER ===================== -->
+  <div id="portfolio-preloader" aria-hidden="true">
+    <div class="preloader-inner">
+      <h1 class="preloader-brand">Angela</h1>
+      <p class="preloader-label">PORTFOLIO LOADING</p>
+      <div class="preloader-line" aria-hidden="true">
+        <span></span>
+      </div>
+    </div>
+  </div>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <header class="navbar" id="navbar">
+    <a href="#home" class="logo" aria-label="Angela Dalangin, back to top">PORTFOLIO<span>.</span></a>
+
+    <nav id="siteNav" aria-label="Main navigation">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#journey">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contacts</a>
+    </nav>
+
+    <button class="theme-button" id="themeButton" type="button"
+            aria-label="Toggle light and dark theme" aria-pressed="false">
+      <span class="theme-icon" aria-hidden="true">☾</span>
+    </button>
+
+    <button class="menu-button" id="menuButton" type="button"
+            aria-label="Open menu" aria-expanded="false" aria-controls="siteNav">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main id="main">
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+
+        <div class="hero-copy">
+          <p class="hero-kicker" data-enter>HELLO, I'M</p>
+
+          <h1 data-enter>Angela Andal Dalangin</h1>
+
+          <div class="hero-role typing-wrap" data-enter
+               aria-label="Information Technology Student / Aspiring IT Professional">
+            <span id="typingRole"></span>
+            <span class="typing-cursor" aria-hidden="true"></span>
+          </div>
+
+          <p class="hero-intro" data-enter>
+            I'm an aspiring IT professional who enjoys turning real-world problems
+            into practical digital solutions through web development, system
+            analysis, UI/UX, and systems integration.
+          </p>
+
+          <div class="buttons hero-buttons" data-enter>
+            <a href="#projects" class="button primary">
+              Explore My Work <span class="button-arrow">→</span>
+            </a>
+
+            <a href="assets/DALANGIN_CV.pdf"
+               class="button cv-button"
+               download="Angela_Andal_Dalangin_CV.pdf">
+              Download CV <span class="download-mark">↓</span>
+            </a>
+          </div>
+
+          <div class="hero-connect" data-enter>
+            <div class="hero-divider"></div>
+            <p>CONNECT</p>
+
+            <div class="social-links">
+              <a href="mailto:gelaandal05@gmail.com" aria-label="Email Angela">Email</a>
+
+              <a href="https://github.com/chxgela"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 aria-label="GitHub">
+                GitHub
+              </a>
+
+              <a href="https://www.linkedin.com/in/angela-dalangin-502727368"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 aria-label="LinkedIn">
+                in
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- ===================== HERO VISUAL ===================== -->
+        <div class="hero-visual" data-enter>
+          <div class="hero-glow" aria-hidden="true"></div>
+
+          <figure class="hero-photo">
+            <div class="image-frame photo-frame"
+                 data-image-frame
+                 data-placeholder="assets/images/profile.jpg"
+                 style="--focus: 50% 25%;">
+
+              <img
+                src="assets/images/profile.jpg"
+                alt="Portrait of Angela Andal Dalangin"
+                width="800"
+                height="1000"
+                decoding="async">
+            </div>
+          </figure>
+
+          <div class="hero-card hero-card-top">
+            <span class="hero-card-icon">◷</span>
+            <div>
+              <strong>IT Student</strong>
+              <small>BS Information Technology</small>
+            </div>
+          </div>
+
+          <div class="hero-card hero-card-middle">
+            <span class="hero-card-icon">&lt;/&gt;</span>
+            <div>
+              <strong>Web Development</strong>
+              <small>Python • Flask • JavaScript</small>
+            </div>
+          </div>
+
+          <div class="hero-card hero-card-bottom">
+            <span class="hero-card-icon">◆</span>
+            <div>
+              <strong>Systems &amp; UI/UX</strong>
+              <small>Practical digital solutions</small>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section class="section" id="about">
+      <div class="container split">
+
+        <div class="section-head reveal">
+          <h2>About me</h2>
+          <p>A closer look at who I am and what I enjoy building.</p>
+        </div>
+
+        <div class="about-body">
+          <div class="about-copy reveal">
+            <p>
+              I'm <strong>Angela Andal Dalangin</strong>, a Bachelor of Science
+              in Information Technology student at Batangas State University –
+              The National Engineering University, Lipa Campus.
+            </p>
+
+            <p>
+              What keeps me interested in IT is watching a real problem turn
+              into something people can actually use. My projects so far have
+              come from the places around me: a community in Lipa City,
+              households in Barangay Balintawak, and students on my own campus.
+            </p>
+
+            <p>
+              I'm still learning, and I learn best by building. Each project
+              pushes me to connect what I study, from web development and
+              databases to system analysis and UI/UX, into one working system.
+            </p>
+          </div>
+
+          <div class="reveal">
+            <h3 class="focus-title">What I'm focused on</h3>
+
+            <ul class="focus-list">
+              <li>
+                <h4>Information Technology</h4>
+                <p>My degree and the foundation for everything below.</p>
+              </li>
+
+              <li>
+                <h4>Web development</h4>
+                <p>Building web apps with Python, Flask, HTML, CSS, and JavaScript.</p>
+              </li>
+
+              <li>
+                <h4>System analysis and design</h4>
+                <p>Understanding user needs, mapping processes, and documenting requirements.</p>
+              </li>
+
+              <li>
+                <h4>Database systems</h4>
+                <p>Designing databases and building CRUD features with SQLite and SQLAlchemy.</p>
+              </li>
+
+              <li>
+                <h4>UI/UX</h4>
+                <p>Making interfaces that are clear, responsive, and easy to use.</p>
+              </li>
+
+              <li>
+                <h4>IT support</h4>
+                <p>A practical side of IT I want to keep building skills in.</p>
+              </li>
+
+              <li class="focus-wide">
+                <h4>Practical technology solutions</h4>
+                <p>Systems that respond to community, household, and university needs.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================== JOURNEY ===================== -->
+    <section class="section" id="journey">
+      <div class="container split">
+
+        <div class="section-head reveal">
+          <h2>My learning journey</h2>
+          <p>
+            Growing through academic projects, research, and hands-on development.
+          </p>
+        </div>
+
+        <ol class="timeline" id="timeline">
+          <!-- Built by js/main.js from js/data.js -->
+        </ol>
+
+      </div>
+    </section>
+
+    <!-- ===================== SKILLS ===================== -->
+    <section class="section" id="skills">
+      <div class="container split">
+
+        <div class="section-head reveal">
+          <p class="section-eyebrow">SKILLS &amp; TOOLS</p>
+          <h2>My Tech Stack</h2>
+          <p>
+            Technologies and tools I use while learning, designing,
+            and building practical systems.
+          </p>
+        </div>
+
+        <div class="skill-list" id="skillsGrid">
+          <!-- Built by js/main.js from js/data.js -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================== PROJECTS ===================== -->
+    <section class="section" id="projects">
+      <div class="container">
+
+        <div class="section-head section-head-wide reveal">
+          <h2>Selected projects</h2>
+          <p>
+            Academic projects focused on practical problems and digital solutions.
+            Select a screenshot to view it larger.
+          </p>
+        </div>
+
+        <div class="projects" id="projectGrid">
+          <!-- Built by js/projects.js from js/data.js -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+
+        <div class="contact-layout reveal">
+
+          <div class="contact-map-wrap">
+            <a class="contact-map"
+               href="https://maps.app.goo.gl/gnzJ5GKkZXhGyUeg7"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="Open Angela's location in Google Maps">
+
+              <iframe
+                title="Angela's location on Google Maps"
+                src="https://www.google.com/maps?q=13.8912644,121.1138235&z=17&output=embed"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                tabindex="-1">
+              </iframe>
+
+              <span class="map-overlay">
+                <span class="map-pin"></span>
+                <span>View location</span>
+                <span class="map-arrow">↗</span>
+              </span>
+
+            </a>
+          </div>
+
+          <div class="contact-list">
+
+            <a class="contact-card"
+               href="https://github.com/chxgela"
+               target="_blank"
+               rel="noopener noreferrer">
+
+              <span class="contact-icon github-icon" aria-hidden="true">GH</span>
+
+              <span class="contact-card-copy">
+                <strong>GitHub</strong>
+                <small>github.com/chxgela</small>
+              </span>
+
+              <span class="contact-arrow" aria-hidden="true">→</span>
+            </a>
+
+            <a class="contact-card"
+               href="mailto:gelaandal05@gmail.com">
+
+              <span class="contact-icon" aria-hidden="true">@</span>
+
+              <span class="contact-card-copy">
+                <strong>Email</strong>
+                <small>gelaandal05@gmail.com</small>
+              </span>
+
+              <span class="contact-arrow" aria-hidden="true">→</span>
+            </a>
+
+            <a class="contact-card"
+               href="https://www.linkedin.com/in/angela-dalangin-502727368"
+               target="_blank"
+               rel="noopener noreferrer">
+
+              <span class="contact-icon linkedin-icon" aria-hidden="true">in</span>
+
+              <span class="contact-card-copy">
+                <strong>LinkedIn</strong>
+                <small>linkedin.com/in/angela-dalangin-502727368</small>
+              </span>
+
+              <span class="contact-arrow" aria-hidden="true">→</span>
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer>
+    <div class="container footer-content">
+      <span>
+        © <span id="year">2026</span> Angela Andal Dalangin
+      </span>
+    </div>
+  </footer>
+
+  <!-- ===================== PROJECT DETAILS DIALOG ===================== -->
+  <dialog class="dialog" id="projectDialog" aria-labelledby="modalTitle">
+
+    <div class="dialog-body">
+
+      <div class="dialog-top">
+        <p class="modal-category" id="modalCategory"></p>
+
+        <button class="dialog-close"
+                type="button"
+                data-close
+                aria-label="Close project details">
+
+          <svg viewBox="0 0 24 24"
+               width="18"
+               height="18"
+               aria-hidden="true">
+
+            <path
+              d="M6 6l12 12M18 6L6 18"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"/>
+
+          </svg>
+        </button>
+      </div>
+
+      <h2 id="modalTitle"></h2>
+      <p class="modal-fulltitle" id="modalFullTitle"></p>
+      <p id="modalDescription"></p>
+
+      <div class="modal-block">
+        <h3>Problem</h3>
+        <p id="modalProblem"></p>
+      </div>
+
+      <div class="modal-block">
+        <h3>Solution</h3>
+        <p id="modalSolution"></p>
+      </div>
+
+      <div class="modal-block">
+        <h3>Focus</h3>
+        <ul class="tags" id="modalTags"></ul>
+      </div>
+
+    </div>
+  </dialog>
+
+  <!-- ===================== SCREENSHOT LIGHTBOX ===================== -->
+  <dialog class="dialog lightbox"
+          id="lightbox"
+          aria-label="Project screenshot">
+
+    <button class="dialog-close"
+            type="button"
+            data-close
+            aria-label="Close screenshot">
+
+      <svg viewBox="0 0 24 24"
+           width="18"
+           height="18"
+           aria-hidden="true">
+
+        <path
+          d="M6 6l12 12M18 6L6 18"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"/>
+
+      </svg>
+    </button>
+
+    <figure>
+      <img id="lightboxImg" alt="">
+      <figcaption id="lightboxCaption"></figcaption>
+    </figure>
+
+  </dialog>
+
+  <!-- ===================== SCRIPTS ===================== -->
+  <script src="js/data.js"></script>
+  <script src="js/media.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/projects.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Portfolio preloader -->
+  <script src="js/preloader.js"></script>
+
+</body>
+</html>
